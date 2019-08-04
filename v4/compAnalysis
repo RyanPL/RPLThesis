@@ -1,0 +1,4 @@
+rm AnalysisScript AnalysisScript.cc
+cp AnalysisScript.C AnalysisScript.cc
+g++ `root-config --cflags` `root-config --libs` AnalysisScript.cc -o AnalysisScript
+rm AnalysisScript.cc

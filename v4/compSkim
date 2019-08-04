@@ -1,0 +1,3 @@
+rm makeSkims makeSkims.cc
+cp makeSkims.C makeSkims.cc
+g++ `root-config --cflags` `root-config --ldflags --libs` makeSkims.cc -o makeSkims

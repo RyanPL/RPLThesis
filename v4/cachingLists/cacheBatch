@@ -1,0 +1,17 @@
+PROJECT: eg1b
+TRACK: analysis
+OS: centos7
+JOBNAME: bigCacheJob
+INPUT_FILES: ~ryanpl/Thesis/v4/cachingLists/cl_nh3_1p1g
+~ryanpl/Thesis/v4/cachingLists/cl_nh3_1p3g
+~ryanpl/Thesis/v4/cachingLists/cl_nh3_1p5g
+~ryanpl/Thesis/v4/cachingLists/cl_nh3_2g
+~ryanpl/Thesis/v4/cachingLists/cl_nh3_2p2g
+~ryanpl/Thesis/v4/cachingLists/cl_nh3_3g
+COMMAND:cl_nh3_1p1g
+cl_nh3_1p3g
+cl_nh3_1p5g
+cl_nh3_2g
+cl_nh3_2p2g
+cl_nh3_3g
+MEMORY: 9500 MB

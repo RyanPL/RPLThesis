@@ -1,0 +1,3 @@
+rm makeGraphs makeGraphs.cc
+cp makeGraphs.C makeGraphs.cc
+g++ `root-config --cflags` `root-config --libs` makeGraphs.cc -o makeGraphs
